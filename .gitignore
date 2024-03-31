@@ -1,0 +1,5 @@
+/storage/
+/.vscode/
+# /app/modules/database/config.php
+
+/docker-compose_local.yml
