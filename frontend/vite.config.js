@@ -4,6 +4,9 @@ import { fileURLToPath, URL } from "url";
 import cssInjectedByJsPlugin from "vite-plugin-css-injected-by-js";
 
 export default defineConfig({
+  server: {
+    port: 5173
+  },
   plugins: [vue({
     template: {
         transformAssetUrls: {
