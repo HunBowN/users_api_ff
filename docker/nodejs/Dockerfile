@@ -8,8 +8,8 @@ RUN apt-get update && apt-get install -y \
 
 USER node
 
-# WORKDIR /home/fatfox/frontend
-WORKDIR /var/www/frontend
+WORKDIR /home/fatfox/frontend
+# WORKDIR /var/www/frontend
 COPY ./ ./
 
 EXPOSE 5173
