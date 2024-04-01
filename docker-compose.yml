@@ -53,9 +53,9 @@ services:
     tty: true
     ports:
         - "5173:5173"
-    working_dir: /home/fatfox/frontend
+    working_dir: /var/www/fatfox
     volumes:
-        - .:/home/fatfox/frontend
+        - .:/var/www/fatfox
 volumes:
   dbdata:
     driver: local
