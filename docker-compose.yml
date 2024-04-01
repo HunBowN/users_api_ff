@@ -55,7 +55,7 @@ services:
         - "5173:5173"
     working_dir: /var/www/fatfox
     volumes:
-        - .:/var/www/fatfox
+        - /home/fatfox/frontend:/var/www/fatfox
 volumes:
   dbdata:
     driver: local
