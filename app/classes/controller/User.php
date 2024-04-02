@@ -103,7 +103,7 @@ class Controller_User extends Controller
 
 
 
-    // public function tabeCreate() {
+    // public function createTabe() {
     //     $request = new Request();
     //     $users = $request->makeCurlRequest('https://randomuser.me/api/', ['results' => 1]);
     //     $users = $users['results'];
