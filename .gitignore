@@ -1,4 +1,4 @@
-/storage/
+/storage/logs/*
 /.vscode/
 # /app/modules/database/config.php
 
